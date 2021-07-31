@@ -7,7 +7,7 @@ class R2:
         
     
     def r2(self):
-        r2 = 1 - ((self.ssReg()**2/self.ssTotal()**2))
+        r2 = 1 - ((self.ssReg()/self.ssTotal()))
         return r2
 
     def mean(self):
@@ -33,6 +33,6 @@ class R2:
         sum = 0
         for y in self.Yactual:
             # y[0] because dealing with 2d arrays
-            sum += (y - self.Ypred[i])
+            sum += (y[0] - self.Ypred[i])**2
             i = i+1
         return sum
