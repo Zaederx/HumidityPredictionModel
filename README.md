@@ -1,4 +1,4 @@
-# HumidityPredictionModel - Weather Data Proejct
+# HumidityPredictionModel - Weather Data Project
  Looking at weather data to find trends and create a data model.
  
  I found some weather data, separated that data into training and test data sets. After that I looked for trends in the data to identify what factors correlated with the Humidity of a given day, by plotting these features against Humidty on scatter graphs.
